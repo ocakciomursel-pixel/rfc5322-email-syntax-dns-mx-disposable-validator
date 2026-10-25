@@ -1,0 +1,28 @@
+{
+  "name": "@lucacelli/rfc5322-email-syntax-dns-mx-disposable-validator",
+  "version": "2.0.0",
+  "description": "Zero-dependency Node.js utility to validate domain signup forms against RFC-5322 syntax, live DNS MX records, and disposable email provider blocklists.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "rfc5322-email-syntax-dns-mx-disposable-validator": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js --demo"
+  },
+  "keywords": [
+    "dns-mx",
+    "email-validation",
+    "disposable-email",
+    "rfc5322",
+    "domain-validation",
+    "nodejs-cli",
+    "signup-security",
+    "antispam",
+    "devops-tools",
+    "dns-lookup"
+  ],
+  "author": "Lucacelli Data Engineering",
+  "license": "MIT"
+}
