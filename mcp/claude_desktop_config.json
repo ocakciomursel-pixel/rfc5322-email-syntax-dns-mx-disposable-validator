@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "lucacelli-b2b-domain-contact-tech-enricher": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "lucacelli/b2b-domain-contact-tech-enricher"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}
